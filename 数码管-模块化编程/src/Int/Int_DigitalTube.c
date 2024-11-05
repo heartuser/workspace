@@ -34,9 +34,9 @@ static void Int_DigitalTube_DisplaySingle(u8 position, u8 num_code)
 {
     P0 = 0x00;
     // 位选：P15 P14 P13(尚硅谷)  P22~P24(普中)
-    P2 = position << 2;
-    // P2 &= 0xC7;
-    // P2 |= position;
+    position <<= 2;
+    P2 &= 0xE3;
+    P2 |= position;
 
     // 段选：P0
     P0 = num_code;
