@@ -1,5 +1,5 @@
 {
-  "name": "独立按键",
+  "name": "矩阵按键",
   "type": "C51",
   "dependenceList": [],
   "srcDirs": [
@@ -12,7 +12,7 @@
     "folders": []
   },
   "miscInfo": {
-    "uid": "2fb9639da7bc23d3877ed27ed98a4414"
+    "uid": "0bf89fde3bbc299600579cd762a3447e"
   },
   "targets": {
     "Release": {
@@ -24,14 +24,13 @@
       "uploader": "Custom",
       "uploadConfig": {
         "bin": "",
-        "commandLine": "python ./tools/stcflash.py -p COM3 \"${hexFile}\"",
+        "commandLine": "python ./tools/stcflash.py -p ${port} \"${hexFile}\"",
         "eraseChipCommand": ""
       },
       "uploadConfigMap": {},
       "custom_dep": {
         "name": "default",
         "incList": [
-          "c:/Program Files (x86)/Keil_v5/C51/INC/STC",
           "c:/Keil_v5/C51/INC/STC"
         ],
         "libList": [],

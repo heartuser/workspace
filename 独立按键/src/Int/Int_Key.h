@@ -3,8 +3,8 @@
 
 #include <STC89C5xRC.H>
 
-#define SW1 P31
-#define SW2 P30
+#define SW1 P42
+#define SW2 P43
 #define SW3 P32
 #define SW4 P33
 

@@ -1,13 +1,12 @@
 #include <Int_Key.h>
 
-#define LED1 P20
-#define LED2 P21
-#define LED3 P22
-#define LED4 P23
+#define LED1 P00
+#define LED2 P01
+#define LED3 P02
+#define LED4 P03
 
 void main()
 {
-
     while (1)
     {
         if(Int_Key_IsSW1Pressed()){
