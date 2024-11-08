@@ -24,15 +24,14 @@
       "uploader": "Custom",
       "uploadConfig": {
         "bin": "",
-        "commandLine": "python ./tools/stcflash.py -p COM3 \"${hexFile}\"",
+        "commandLine": "python ./tools/stcflash.py -p COM9 \"${hexFile}\"",
         "eraseChipCommand": ""
       },
       "uploadConfigMap": {},
       "custom_dep": {
         "name": "default",
         "incList": [
-          "c:/Program Files (x86)/Keil_v5/C51/INC/STC",
-          "c:/Keil_v5/C51/INC/STC"
+          "c:/Program Files (x86)/Keil_v5/C51/INC/STC"
         ],
         "libList": [],
         "defineList": []
