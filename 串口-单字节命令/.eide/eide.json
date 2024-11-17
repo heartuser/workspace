@@ -1,5 +1,5 @@
 {
-  "name": "定时器",
+  "name": "串口-单字节命令",
   "type": "C51",
   "dependenceList": [],
   "srcDirs": [
@@ -12,7 +12,7 @@
     "folders": []
   },
   "miscInfo": {
-    "uid": "2e8ab3ce5c1cf5a54b7e1d02959552d3"
+    "uid": "329a75fbc00faf1b16e0f9ae111d709d"
   },
   "targets": {
     "Release": {
@@ -31,7 +31,6 @@
       "custom_dep": {
         "name": "default",
         "incList": [
-          "c:/Program Files (x86)/Keil_v5/C51/INC/STC",
           "c:/Keil_v5/C51/INC/STC"
         ],
         "libList": [],

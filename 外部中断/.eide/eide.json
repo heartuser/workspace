@@ -31,7 +31,8 @@
       "custom_dep": {
         "name": "default",
         "incList": [
-          "c:/Program Files (x86)/Keil_v5/C51/INC/STC"
+          "c:/Program Files (x86)/Keil_v5/C51/INC/STC",
+          "c:/Keil_v5/C51/INC/STC"
         ],
         "libList": [],
         "defineList": []
