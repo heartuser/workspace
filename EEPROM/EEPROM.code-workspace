@@ -22,9 +22,7 @@
             "*.cpp": "cpp",
             "*.cxx": "cpp",
             "*.cc": "cpp",
-            "STRING.H": "cpp",
-            "STC89C5xRC.H": "cpp",
-            "DRI_TIMER0.C": "cpp"
+            "STC89C5xRC.H": "cpp"
         },
         "C_Cpp.default.configurationProvider": "cl.eide",
         "[yaml]": {

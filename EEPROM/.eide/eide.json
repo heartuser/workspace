@@ -1,5 +1,5 @@
 {
-  "name": "串口-单字节命令",
+  "name": "EEPROM",
   "type": "C51",
   "dependenceList": [],
   "srcDirs": [
@@ -12,7 +12,7 @@
     "folders": []
   },
   "miscInfo": {
-    "uid": "329a75fbc00faf1b16e0f9ae111d709d"
+    "uid": "fea8a4e61b2c4f85d940ad2041d25bc0"
   },
   "targets": {
     "Release": {
