@@ -15,7 +15,7 @@ void Dri_IIC_SendByte(u8 byte)
 {
     u8 i;
     for (i = 0; i < 8; i++) {
-        SDA = (byte << i) / 0x80; // 从字节的高位到低位一位一位发送字节
+        SDA = (byte & (0x80 >> i)) == 0 ? 0 : 1; // 从字节的高位到低位一位一位发送字节
         SCL = 1;                  // 拉高时钟线使外部设备读取数据
         SCL = 0;                  // 拉低时钟线准备下一位要发送的数据
     }
@@ -40,7 +40,7 @@ u8 Dri_IIC_ReceiveByte()
     SDA = 1; // 释放数据线，使外部设备可以发送数据
     for (i = 0; i < 8; i++) {
         SCL  = 1; // 拉高时钟线，读取数据
-        byte = (byte << i) | SDA;
+        byte = (byte << 1) | SDA;
         SCL  = 0;
     }
 
