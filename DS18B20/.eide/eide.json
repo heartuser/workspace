@@ -1,5 +1,5 @@
 {
-  "name": "hello-template",
+  "name": "DS18B20",
   "type": "C51",
   "dependenceList": [],
   "srcDirs": [
@@ -12,7 +12,7 @@
     "folders": []
   },
   "miscInfo": {
-    "uid": "016b1200f33798807490e02eaf609e9b"
+    "uid": "6fe4ceb537dcf9b2bac450a5341af863"
   },
   "targets": {
     "Release": {

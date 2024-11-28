@@ -1,5 +1,5 @@
 {
-  "name": "hello-template",
+  "name": "OLED",
   "type": "C51",
   "dependenceList": [],
   "srcDirs": [
@@ -12,7 +12,7 @@
     "folders": []
   },
   "miscInfo": {
-    "uid": "016b1200f33798807490e02eaf609e9b"
+    "uid": "041b94d61747b12508f4fdb16d34c2d7"
   },
   "targets": {
     "Release": {
