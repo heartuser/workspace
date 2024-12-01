@@ -294,7 +294,6 @@ code const u8 Int_OLED_Font[][16] =
         0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, //~ 94
 };
 
-code const u8 Int_OLED_ClearZero[128 * 8] = {0};
 
 void Int_OLED_WriteData(u8 bytes[], u8 len)
 {

@@ -23,7 +23,7 @@ void main()
     st_date.month       = 12;
     st_date.day         = 1;
     st_date.day_of_week = 7;
-    st_date.year        = 2024;
+    st_date.year        = 24;
     Int_OLED_Init();
     Int_OLED_Clear();
     Int_DS1302_Init();

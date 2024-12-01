@@ -6,11 +6,11 @@ bit Dri_1Wire_Init()
 {
     bit result;
     DQ = 0;
-    Delay10us(48);
+    Com_Util_Delay480us();
     DQ = 1;
-    Delay10us(6);
+    Com_Util_Delay60us();
     result = ~DQ;
-    Delay10us(42);
+    Com_Util_Delay420us();
     return result;
 }
 
@@ -20,7 +20,7 @@ void Dri_1Wire_WriteByte(u8 byte)
     for (i = 0; i < 8; i++) {
         DQ = 0;
         DQ = byte & 0x01;
-        Delay10us(6);
+        Com_Util_Delay60us();
         DQ = 1;
         byte >>= 1;
     }
@@ -33,12 +33,12 @@ u8 Dri_1Wire_ReadByte()
     for (i = 0; i < 8; i++) {
         DQ = 0;
         DQ = 1;
-        Delay10us(1);
+        Com_Util_Delay10us();
         byte >>= 1;
         if (DQ == 1) {
             byte |= 0x80;
         }
-        Delay10us(5);
+        Com_Util_Delay50us();
     }
 
     return byte;
