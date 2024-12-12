@@ -1,7 +1,7 @@
 .\output\main.o: User\main.c
 .\output\main.o: .\Start\stm32f10x.h
 .\output\main.o: .\Start\core_cm3.h
-.\output\main.o: C:\Program Files (x86)\MDK\ARM\Version5.06\Bin\..\include\stdint.h
+.\output\main.o: C:\Keil_MDK_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\output\main.o: .\Start\system_stm32f10x.h
 .\output\main.o: .\User\stm32f10x_conf.h
 .\output\main.o: .\Library\stm32f10x_adc.h
