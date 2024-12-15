@@ -6,7 +6,7 @@ uint16_t CountSensor_count;
 
 void CountSensor_Init(void)
 {
-    /*开启GPIO和中断时钟（EXTI和NVIC不需要开启时钟，默认开启）
+    /*开启GPIO和AFIO时钟（EXTI和NVIC不需要开启时钟，默认开启）
       NVIC是内核外设，内核外设都是默认开启
     */
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
